@@ -1,0 +1,76 @@
+# section information
+section:
+  name: About
+  enable: true
+  weight: 1
+  showOnNavbar: true
+
+# your designation
+designation: Web Application Security Analyst
+# your company information
+company:
+  name: Qualys
+  url: "https://www.qualys.com/"
+
+# your resume. this file path should be relative to you "static" directory
+#resume: "files/resume.pdf"
+
+# a summary about you
+summary: 'I hold a Master of Science Degree in Computer Applications(MSc(CA)) from Symbiosis International University, with experience in working on blockchain technologies and conducting security reviews for Web and mobile applications, and Ethereum based Smart Contracts in my previous role as an Information Security Consultant and research intern. Currently I am independently researching on Ethereum Based Smart Contracts alongside working as a Web Application Security Analyst with the WAF Research team at Qualys. I am also the Pune Chapter Lead for the Infosecgirls community and also one of the lead for WomenWhoCode in Pune. I have also presented at conferences such as Owasp Seasides 2019-2020, Bsides Singapore 2019, Rootconf 2019, Webinars, Cyberfrat and Null Meets.'
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+#- name: Email
+ # icon: "fas fa-envelope"
+  #url: "example@gmail.com"
+
+- name: Github
+  icon: "fab fa-github"
+  url: "https://www.github.com/shrutirupa"
+
+#- name: Stackoverflow
+ # icon: "fab fa-stack-overflow"
+  #url: "#"
+
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/shrutirupa-banerjiee"
+
+- name: Twitter
+  icon: "fab fa-twitter"
+  url: "https://twitter.com/freak_crypt"
+
+#- name: Facebook
+ # icon: "fab fa-facebook"
+  #url: "#"
+
+# your soft skills
+# give the percentage between 50 to 100 with 5 intervals.
+# currently supported colors: blue, yellow, pink, green, sky, orange
+# softSkills:
+# - name: Leadership
+#   percentage: 85
+#   color: blue
+# - name: Team Work
+#   percentage: 90
+#   color: yellow
+# - name: Communication
+#   percentage: 85
+#   color: pink
+# - name: Hard Working
+#   percentage: 85
+#   color: green
+# - name: Fast Learner
+#   percentage: 85
+#   color: sky
+# - name: Problem Solving
+#   percentage: 85
+#   color: orange
+# you can also provide color code instead of pre-defined color name
+# - name: Example 1
+#   percentage: 75
+#   color: "#00adb5"
+# - name: Example 2
+#   percentage: 65
+#   color: "#8b8383"
