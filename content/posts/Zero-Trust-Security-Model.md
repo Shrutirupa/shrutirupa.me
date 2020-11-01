@@ -1,7 +1,7 @@
 ---
 title: "Zero Trust Security Model"
 date: 2020-11-02T01:45:11+05:30
-draft: true
+draft: false
 ---
 
 <p> Every day we come across a new kind of vulnerability or a zero-day attack on an application. It is quite known that nothing is 100% secure. We do observe different kinds of data breaches or accounts getting compromised. And this is something unacceptable. Every organization implements a new policy based on the recent hacks or threats, that they may or may not have suffered from. And of course, there has to be a long term solution to it. </p>
