@@ -46,7 +46,7 @@ The above-mentioned points are some of the measures which should be implemented 
 
 References:
 <p> <a href="https://solutionsreview.com/identity-management/what-is-zero-trust-identity-security-how-can-you-implement-it/"> Zero Trust Identity Security  </a>  </p>
-<p> <a href="https://youtu.be/pyyd_OXHucI"> RSA Conference - No more firewalls ! How Zero-Trust Networks Are Reshaping Cybersecurity </p>
+<p> <a href="https://youtu.be/pyyd_OXHucI"> RSA Conference - No more firewalls ! How Zero-Trust Networks Are Reshaping Cybersecurity? </p>
 <p> <a href="https://youtu.be/5IcZdeNITYk"> Zero Trust Architecture 101 - A 5 Minute Explanation </p>
 <p> <a href="https://youtu.be/-Why_ZjJUhg"> How Zero Trust improves security and the user experience </p>
 <p> <a href="https://youtu.be/1D5mg9an19o"> What is Zero Trust Security? </p>
