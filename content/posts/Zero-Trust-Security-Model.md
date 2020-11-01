@@ -1,47 +1,46 @@
 ---
-title: "Introduction to Fields"
-date: 2020-07-23T03:05:06+05:30
+title: "Zero Trust Security Model"
+date: 2020-11-02T03:05:06+05:30
 draft: false
 ---
 
-Hello Folks,
+Every day we come across a new kind of vulnerability or a zero-day attack on an application. It is quite known that nothing is 100% secure. We do observe different kinds of data breaches or accounts getting compromised. And this is something unacceptable. Every organization implements a new policy based on the recent hacks or threats, that they may or may not have suffered from. And of course, there has to be a long term solution to it. 
 
-I hope my last post was useful to you all and you could understand at least the definition that I had mentioned.
+Obviously, we can't expect the hackers to stop hacking but we can definitely, implement a stronger security model.
+Initially, the organizations had a perimeter-based network. And this classic security model would only implement a firewall or Just an IDS or IPS. 
+But now proper security measures have to be implemented at each step. It was believed that everything within our network is secure. But this is not the case anymore. Thus, the zero-trust security model comes into play. Under this model, everything is considered to be an attack vector. Everything, big or small is a threat i.e. everything connected to an enterprise is untrusted until proved otherwise.
+Good security practices have to be implemented both internally and externally. 
+Nothing is to be trusted and everything has to be verified. 
 
-Basically, it is not that easy to understand group theory at once, but I can assure you that once you are able to understand their application in Cryptography, you might start understanding it and hence, loving it as well. This had happened to me though 😛
+So for implementing such strong measures, the following could be some of the solutions:
+SSO - It stands for Single Sign-On. As the term signifies it is talking about a centralized i.e. single system that uses a single set of credentials(sign-on)  for multiple applications. 
 
-So, let us start with the mathematical definition of Fields and then we will head towards my idea on my next blog. 🙂
+Multi-factor authentication - The term "multi-factor" here suggests that a user has to prove their authenticity multiple times to the website or the application. 
 
-In my last blog, we learned about the definition of Rings, now let us learn what Field is.
+The above two measures talk about the authentication of a user to protect an organization from any identity theft-related issues. Improper implementation of the above two measures may allow any random and malicious user to get into the network and hence, compromise the enterprise.
 
-A Field is a set, say F with two binary operators, + and  * such that the following conditions are satisfied:
+Privileges - This talks about the privileges provided to a user in an application. 
+The user may have lower privileges and hence doesn't have the right to access the privileges of an admin, say, and this leads to the implementation of proper authorization measures within the organization.
 
-     + is closed on F, i.e. ∀ a,b ∈ F, a + b ∈ F
-     * is closed on F i.e. ∀ a,b ∈ F, a * b ∈ F
-     + is associative i.e. if a,b,c ∈ F, then a+(b+c) = (a+b)+c
-     F contains an identity element on +  i.e. ∃ 0 ∈ F : ∀ a ∈ F, a+0=a
-     F contains an inverse element on + i.e. ∀ a ∈ F, ∃ –a ∈ F : a + (-a) = 0
-     ∀ a,b ∈ F, a + b = b + a
-     ∀ a,b ∈ F, a * b = b * a
-    ∀ a,b,c ∈ F, a * ( b * c ) = ( a * b ) * c
-    ∀ a,b,c ∈ F, (a + b) *c  = a * c + b * c
-     F contains an identity element on *  i.e. ∃ 1 ∈ F and 1 ≠ 0 : ∀ a ∈ F, a*1=a
-     F contains an inverse element on *  i.e. ∃ -a ∈ F and -a ≠ 0 a : ∀ a ∈ F, a*(-a) = 1
+Micro-segmentation - This is one important security practice which is dividing the network into smaller segments so that each segment can be segregated from one another. 
+It takes care of the proper implementation of the access control mechanism in the organization. Taking a deep dive into this process, we can comprehend that if one of the segments gets compromised in any way, it doesn't affect the other segments, and this helps the organization to only look after the affected segment, hence decreasing the workload along with increasing the security aspect.
 
-So, a Field is just a Commutative Ring whose every non-zero element has a multiplicative inverse.
+Monitoring - After implementing some good security practices, it is always important to keep a log of the activities of the users who are using the organization’s devices or network or both. Logs have to be maintained and monitored. 
+This is the most important step to be followed at any cost. And as has already been mentioned before "Nothing is to be trusted and everything has to be verified". 
 
-I am just going with the basic definitions for now, we will get into details eventually. 😛
 
-Now, we have finally headed towards the topic which is  of utmost importance for my next blog posts. The topic is “Finite Fields”.
+The above-mentioned points are some of the measures which should be implemented in an organization for stronger security. As nothing is completely secured, and also not everything is trustworthy, so it's important to follow good security practices and reasonable policies and the zero-trust security model does focus on the same. 
 
-Finite Field is also known as Galois Field, which is the base for AES Algorithm. As the term suggests, a Field consisting of finite number of elements is a Finite Field. But there is a catch!! :O
 
-In my previous post about Finite Groups, we had learnt about order of a Group. Even in the case of Fields, we have an order defining it’s Cardinality.
 
-Hence, the order of a Finite Field is either a prime or a power of prime.
 
-This is what we will be focusing on from my next posts. We will learn about AES and let us see if we can come up with something similar of our own. 😛
 
-These definitions will be more clear in my upcoming posts. Till then, happy decoding 🙂
 
-PS: I will be writing more blog posts on Group Theory and will penetrate deep into it. 🙂
+
+References:
+1. https://solutionsreview.com/identity-management/what-is-zero-trust-identity-security-how-can-you-implement-it/
+2. https://youtu.be/pyyd_OXHucI
+3. https://youtu.be/5IcZdeNITYk
+4. https://youtu.be/-Why_ZjJUhg
+5. https://youtu.be/1D5mg9an19o
+
