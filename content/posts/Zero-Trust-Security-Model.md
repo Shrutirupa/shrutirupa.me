@@ -13,7 +13,7 @@ Good security practices have to be implemented both internally and externally.
 Nothing is to be trusted and everything has to be verified. 
 </p>
 <p>
-So for implementing such strong measures, the following could be some of the solutions:
+Thus, the following combination of solutions could be implemented as Zero Trust Model:
 </p>
 <p>
 SSO - It stands for Single Sign-On. As the term signifies it is talking about a centralized i.e. single system that uses a single set of credentials(sign-on)  for multiple applications. 
