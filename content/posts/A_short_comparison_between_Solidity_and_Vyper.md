@@ -27,7 +27,7 @@ Every node in the ethereum network runs EVM.
 Let's get back to the various changes that have been made in vyper while taking care of the flaws in solidity, in brief : 
 </p>
 <p>
-1. Apart from the change related to the Object-Oriented Programming, Vyper also doesn't use loops(recursive and infinite). This takes care of the problem of exceeding the gas limit while executing a function. 
+1. Apart from the change related to the Object-Oriented Programming, Vyper also takes care of the infinite length and recursive loops to keep a check on the problem of exceeding the gas limit while executing a function. 
 </p>
 <p>
 2. Integer over/underflow vulnerability is already taken care of in the Vyper while in solidity, the safe-math library has to be implemented to avoid this vulnerability. 
