@@ -16,8 +16,7 @@ company:
 #resume: "files/resume.pdf"
 
 # a summary about you
-summary: 'I hold a Master of Science Degree in Computer Applications(MSc(CA)) from Symbiosis International University, with experience in working on blockchain technologies and conducting security reviews for Web and mobile applications, and Ethereum based Smart Contracts in my previous role as an Information Security Consultant and research intern. Currently I am independently researching on Ethereum Based Smart Contracts alongside working as a Web Application Security Analyst with the WAF Research team at Qualys. I am also the Pune Chapter Lead for the Infosecgirls community and also one of the lead for WomenWhoCode in Pune. I have also presented at conferences such as Owasp Seasides 2019-2020, Bsides Singapore 2019, Rootconf 2019, Webinars, Cyberfrat and Null Meets.'
-
+summary: 'Shrutirupa Banerjiee is an Experienced Security Enthusiast with over 3 years of demonstrated skills in Penetration Testing and Vulnerability Assessment of Applications(web & mobile) and Networks, Blockchain based Smart Contracts, currently working under WAF Research, at Qualys. She has been an active member of various communities. She is one of the lead for Breaking Barriers - Women in CyberSecurity, Lean in Circle, along with being one of the mentor for the CyberPreserve Community. She is one of the lead for InfosecGirls and WomenWhoCode, Pune as well. She is also an active technical blogger at https://shrutirupa.me . She has been speaker at various conferences like BSides Singapore (2019), OWASP Seasides (2019, 2020),Rootconf (2019), EnCypher20 (2020), Tech(k)now Day 2021 and  various local and virtual meetups. She also loves to play ctfs and is interested in Reverse Engineering and Malware Analysis.'
 # your social links
 # give as many as you want. use font-awesome for the icons.
 socialLinks:
